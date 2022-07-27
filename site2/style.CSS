@@ -1,0 +1,25 @@
+p{
+    color: blue;
+    background-color: azure;
+    font-size: 15px;
+}
+h1{
+    color: red;
+    background-color: cyan;
+}
+h2{
+    font-variant: small-caps;
+    font-weight: 700;
+    color: #affbbb;
+}
+h3{
+    background-color: #654456;
+    color: rgb(0, 255, 100);
+    font-size: 20pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h1Doidao{
+    color: pink;
+    background-color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
