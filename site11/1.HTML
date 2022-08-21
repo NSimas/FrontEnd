@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-logo" src="logo.png" alt="logo-marfrig">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="Home.html">Home</a>
+            <a class="cabecalho-menu-item" href="quemsomos.html">Quem somos</a>
+            <a></a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <form class="titulo-formulario" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+            <input type=hidden name="oid" value="00D8V00000298FQ">
+            <input type=hidden name="retURL" value="http://marfrig.com.br/pt">
+    
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  NOTA: Estes campos são elementos de depuração opcionais. Remova o       -->
+    <!--  comentário dessas linhas se quiser testar no modo de depuração.         -->
+    <!--  <input type="hidden" name="debug" value=1>                              -->
+    <!--  <input type="hidden" name="debugEmail"                                  -->
+    <!--  value="grupo3marfrig@gmail.com">                                        -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <label for="first_name">Primeiro Nome</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" / required><br>
+
+    <label for="last_name">Sobrenome</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" / required><br>
+
+    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" / required><br>
+
+     <label for="country">País</label><input  id="country" maxlength="40" name="country" size="20" type="text" / required><br>
+
+     CPF<input  id="00N8V00000KSDYY" maxlength="14" name="00N8V00000KSDYY" size="20" type="text" / required><br>
+
+     <label for="phone">Telefone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" / required><br>
+
+    <label for="mobile">Celular</label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" / required><br>
+
+     <center><input class="botao" type="submit" name="submit" label="<center>Enviar</center>"></center>
+    
+</form>
+
+
+    </main>
+
+    <footer>
+        <nav class="rodape">
+            <a class="rodape-redes" href="https://www.facebook.com/marfrigglobalfoods">Facebook</a>
+            <a class="rodape-redes" href="https://www.linkedin.com/company/marfrig-global-foods/">Linkedin</a>
+            <a class="rodape-redes" href="https://www.instagram.com/marfrig.mrfg3/">Instagram</a>
+        </nav>
+    </footer>
+</body>
+</html>
