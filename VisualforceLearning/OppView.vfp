@@ -1,0 +1,9 @@
+Create a Visualforce page that displays a variety of output fields
+Create a page that displays a subset of Opportunity fields using apex:outputField components. Bind the Name, Amount, Close Date and Account Name fields to the apex:outputField components.
+
+<apex:page name="OppView" standardController="Opportunity">
+    <apex:outputField value="{!Opportunity.Name}"/>
+    <apex:outputField value="{!Opportunity.Amount}"/>
+    <apex:outputField value="{!Opportunity.CloseDate}"/>
+    <apex:outputField value="{!Opportunity.Account.Name}"/>
+</apex:page>
